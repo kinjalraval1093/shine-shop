@@ -1,0 +1,412 @@
+ *{
+    font-family:"Cinzel",serif; 
+ }
+ 
+
+
+
+.header
+        {
+
+          
+            margin-top: 10px;
+            height: 100px;
+            padding: 30px;
+            background-color: #FFFFFF;
+            position: sticky;
+            top: 0;
+          
+          z-index: 1;
+            
+        }
+        .header .logo{
+            background-position: 50px 50px;
+            margin-left: 70px;
+            margin-top: 5px;
+            
+            
+            
+        } 
+
+      
+       
+
+        .up i{
+            position: fixed;
+            right: 20PX;
+            bottom: 30px;
+            
+            padding: 10px;
+             border-radius: 50%;
+             font-size: 20px;
+             background-color:#8C6AE4 ;
+             color: white;
+            
+        } 
+
+        .menu ul{
+            margin-left: 70px;
+        }
+
+        .menu ul a{
+            text-decoration: none;
+            color: #1D2547;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 700;
+             font-style: normal;
+            font-size: 15px;
+            margin-left: 10px;
+           
+        }
+
+        .menu ul a :hover{
+            color: #C6AFFF;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 700;
+             font-style: normal;
+
+
+        }
+
+        .icon
+        {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #E5E5EA;
+            border-radius: 50%;
+            text-align: center;
+            margin-left: 10px;
+          
+        }
+        .icon i
+        {
+            margin-top: 10px;
+        }
+        .search
+        {
+            width: 40px;
+            height: 40px;
+            
+            border-radius: 50%;
+            text-align: center; 
+            background-color: #F6F8FE;
+           
+        }
+
+        .search i{
+            margin-top: 10px;
+        }
+
+        .cart
+        {
+            width: 55px;
+            height: 40px;
+            border-radius: 50px;
+            margin-left: 15px;
+            background-color: #9F78FF;
+            color: white;
+            
+        }
+
+        .search_bar
+        {
+            display:flex;
+            margin-left: 10px;
+            
+        }
+
+        .nav a
+        {
+            color: black;
+        }
+
+        .nav .icon a:hover
+        {
+            color: #9F78FF;
+        }
+
+        .dropdown ul
+        {
+           
+            border: 1px solid black;
+            margin-top: 0px;
+            margin-left: 5px;
+
+        }
+        .dropdown ul li{
+            -border: 1px solid black;
+            width: 150px;
+        }
+        .dropdown  li:hover
+        {
+            color: #9F78FF;
+        }
+        .btn-mycolor
+        {
+           
+            background-color: #9F78FF;
+        }
+        .carousel-caption .btn:hover
+        {
+            
+            background-color: #8C6AE4;
+           
+        }
+        .card .btn:hover
+        {
+            
+            background-color: #8C6AE4;
+           
+        }
+
+        .card{
+            overflow: hidden;
+        }
+        .button-overlay{
+            -border: 1px solid red;
+            position: absolute;
+            top: -50px;
+            width: 100%;
+            text-align: center;  
+            transition: 0.5s;  
+            color: white;   
+          
+        }
+        .card:hover .button-overlay{
+            top: 150px;
+            color: white;
+          
+        }
+        .img_cap
+        {
+            background-color: rgba(29,37,71,0.5);
+            color: white;
+            font-size: 30px;
+            font-family: "Cinzel",serif;
+            text-transform: uppercase;
+            height: 80px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .cap_overlay
+        {
+            position: absolute;
+            width: 100%;
+            bottom: -80px;
+            transition: 0.5s;  
+        }
+
+        .card:hover .cap_overlay{
+            bottom: 0px;
+            
+          
+        }
+        .card img:hover
+        {
+            opacity: 0.5;
+        }
+        h1
+        {
+            font-size: 55px;
+            font-weight: 600;
+            font-family: "Cinzel",serif;
+            color: #140C40;
+            text-transform: uppercase;
+        text-align: center;    
+        margin-top: 100px; 
+    
+    }
+     
+
+        .card h3:hover
+        {
+            text-decoration: underline;
+        }
+
+        .new .card:hover{
+            box-shadow: 3px 3px 5px silver;
+            transition:0.5s ;
+        }
+
+        .new .img1{
+           z-index: 1;
+        }
+        .btn-outline-mycolor
+        {
+            border:1px solid #9F78FF;
+        }
+        .new .btn
+        {
+           margin-top: 50px;
+           width: 180px;
+           height: 50px;
+           font-size: 20px;
+        }
+        .new .btn:hover{
+            background-color: #8C6AE4;
+            color: white;
+           transition:  color 0.4s linear;
+
+        }
+        .text-mycolor
+        {
+            color: #8C6AE4;
+        }
+
+    .about 
+        {
+            position: relative;
+        }
+
+   
+
+     .about h2{
+        position: absolute;
+        top: 150px;
+        left: 200px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 70px;
+        font-weight: 500;
+        font-family: Cinzel,serif;
+        
+     }
+     
+     .about .btn
+        {
+            position: absolute;
+            top: 330px;
+            left: 500px;
+            border-radius: 3px;
+             width: 140px;
+            height: 50px; 
+            font-size: 20px;
+            font-family: Poppins,sans-serif;
+            transition:1s;
+            transition-property: background-color;
+            transition-duration: 1s;
+            transition-timing-function: linear 3s;
+          
+           
+           
+            
+                }
+
+        .about .btn:hover
+        {
+           background-color: #69c75e;
+            /* width:150px;
+            height:50px; */
+            /* background-color: #8C6AE4; */
+        }        
+
+    .box1
+    
+        {
+            position: relative;
+        }
+        .box1 a{
+            position: absolute;
+            bottom: 120px;
+            left: 50px;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-family: Poppins,sans-serif;
+            font-size: 34px;
+            font-weight: 400;
+        }
+
+        .box1 .btn{
+            position: absolute;
+            bottom: 55px;
+            left: 50px;
+            width: 180px;
+            height: 50px;
+            border-radius: 0;
+            color: #FFFFFF;
+            font-size: 20px
+        }
+
+        .box1 .btn:hover{
+            background-color:#8C6AE4 ;
+        }
+
+        .box1 img:hover
+        {
+            transition: .4s;
+            box-shadow: 4px 3px 3px gray;
+            opacity: 0.8;
+
+
+        }
+
+        .del_cap h5
+        {
+            color: #2B2B2B;
+            font-size: 23px;
+            font-family: Poppins ,sans-serif;
+            font-weight: 700;
+        }
+
+        .del_cap p
+        {
+            color: #2B2B2B;
+            font-size: 16px;
+            font-family: Poppins ,sans-serif;
+          font-weight: normal;
+        }
+
+        .bg-color
+        {
+            background-color: #F7F7FD;
+        }
+        .h-60
+        {
+            height: 60%;
+        }
+
+        .quick_link ul a
+        {
+            color: #C2C5DB !important;
+            font-weight: 300;
+            font-family: "Poppins",sans-serif;
+            font-size: 17px;
+        }
+
+        .quick_link ul a:hover
+        {
+        color: #8C6AE4 !important;
+        text-decoration: underline !important;
+        }
+
+        .box
+        {
+            height: 40px;
+            width: 40px;
+            border: 1px solid white;
+            border-radius: 50%;
+            margin-left: 15px;
+        }
+
+        .box a{
+            position: absolute;
+            color: white;
+           
+        }
+        .box a
+        {
+            position: relative;
+            top: 7px;
+            right: 6px;
+        }
+        .box:hover{
+            background-color: #8C6AE4;
+        }
+
+        
+
+        
+
+      
+
+      

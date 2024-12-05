@@ -1,0 +1,270 @@
+
+*{
+    -border: 1px solid black;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff ;
+  background-color: #D19C97;
+}
+
+        .bg-new
+        {
+            background-color: #EDF1FF;
+        }
+
+       
+        li i{
+            margin-right: 10px;
+        }
+
+        li a:hover
+        {
+        background-color: #D19C97 ;
+        color: white  !important;
+        
+           
+        }
+
+        .card-body p h5 button{
+            position: relative;
+        }
+        .card-body h5{
+            position: absolute;
+            top:35%;
+            left:30%;
+        }
+        .card-body h1
+        {
+            position: absolute;
+            top: 45%;
+            left:26%
+        }
+     
+        .card-body button
+        {
+            position: absolute;
+            top: 65%;
+            left: 40%;
+        }
+
+        .box
+        {
+            border: 1px solid black ;
+            width: 280px;
+            height: 120px;
+            position: relative;
+        }
+
+        .box i{
+            position: absolute;
+            top:45px;
+            left: 20px;
+        }
+
+        .box h4{
+            position: absolute;
+            top: 45px;
+            left: 75px;
+        }
+
+         .left
+        {
+            
+            width: 600px;
+            height: 230px;
+            background-color: #EDF1FF;
+        } 
+       
+         .right
+        {
+           
+            width: 600px;
+            height: 230px;
+            background-color: #EDF1FF;
+        } 
+
+        .btn-outline-color
+        {
+        border-color: #D19C97;
+        }
+
+        .text-color
+        {
+            color: #D19C97;
+        }
+        .bg-customcolor
+        {
+            background-color: #EDF1FF;
+        }
+
+        .left button:hover
+        {
+            background-color: #D19C97;
+            color: black;
+        }
+
+        .right button:hover
+        {
+            background-color: #D19C97;
+            color: black;
+        }
+
+       
+
+        .left h4
+        {
+            position: absolute;
+            top:20%;
+            right:10%;
+            color: #D19C97;
+        }
+       
+
+        .left h1
+        {
+            position: absolute;
+            top:40%;
+            right:10%;
+        }
+
+        
+
+        .left button
+        {
+            position: absolute;
+            top:70%;
+            right:10%;
+        }
+
+        .left 
+        {
+            position: relative;
+        }
+        .left img{
+            position: absolute;
+            top: 20px;
+            left: 10px;
+        }
+
+        .right 
+        {
+            position: relative;
+        }
+        .right img{
+            position: absolute;
+            top: 20px;
+            right: 10px;
+        }
+        .right h4
+        {
+            position: absolute;
+            top: 20%;
+            left: 5%;
+            color: #D19C97;
+        }
+
+        .right h1
+        {
+            position: absolute;
+            top: 40%;
+            left: 5%;
+        }
+
+        .right button
+        {
+            position: absolute;
+            top: 70%;
+            left: 5%;
+        }
+
+       .card-footer a:hover
+
+        {
+            color: #D19C97 !important;
+        }
+      
+        ul a:hover
+        {
+            color: #D19C97 !important;
+            background-color: white !important;
+        }
+        li a:hover{
+            color: #D19C97 !important;
+            background-color: white !important;
+        }
+       
+      .btn-color{
+        background-color: #D19C97;
+      }
+
+    .btn:hover{
+        background-color: #D19C97;
+        color: white;
+    }
+    center 
+    {
+        position: relative;
+    }
+    center .btn
+    {
+        position: absolute;
+        top: 26px;
+        left: 62% ;
+    }
+
+    .ft_menu a:hover{
+
+        text-decoration: underline !important;
+        background-color: #EDF1FF !important;
+        color: black !important;
+
+ 
+    }
+
+    .ft_menu ul li{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .login button:hover
+    {
+        color: white !important;
+    }
+     
+    .faq li a:hover
+    {
+    text-decoration: underline !important;
+        color: black !important;
+        background-color:#EDF1FF !important;
+    }
+
+    .box1
+    {
+       
+        width: 40px;
+        height: 50px; 
+        background-color: #D19C97;
+        position: fixed;
+        bottom: 35px;
+        right: 15px;
+        
+    }
+
+    .box1 i:hover{
+        color: white;
+    }
+   
+
+
+
+    /******cat-section start******/
+
+    .cat-section ul a{
+        font-size: 18px;color: #000;
+    }
+
+    .list-group-item+.list-group-item.active{
+        background-color: white;color: green;font-weight: bold;
+        border-color: #dee2e6;
+    }

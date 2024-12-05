@@ -1,0 +1,26 @@
+.gmap
+{
+    width: 850px;
+    height: 450px;
+    
+    margin-left:10%;
+    margin-top: 100px;
+ 
+}
+
+.gmap img
+{
+    background-size: cover;
+    width: 850px;
+    height: 450px;
+}
+
+.c_title h2
+{
+    font-size: 27px;
+    font-weight: 600;
+    font-family: "Cinzel",serif;
+    color: #140C40;
+    margin-left: 50px;
+    margin-top: 80px;
+}

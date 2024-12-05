@@ -1,0 +1,240 @@
+.header
+        {
+
+          
+            margin-top: 10px;
+            height: 100px;
+            padding: 30px;
+            background-color: #FFFFFF;
+            position: sticky;
+            top: 0;
+          
+          z-index: 1;
+            
+        }
+        .header .logo{
+            background-position: 50px 50px;
+            margin-left: 70px;
+            margin-top: 5px;
+            
+            
+            
+        } 
+
+      
+       
+
+        .up i{
+            position: fixed;
+            right: 20PX;
+            bottom: 30px;
+            
+            padding: 10px;
+             border-radius: 50%;
+             font-size: 20px;
+             background-color:#8C6AE4 ;
+             color: white;
+            
+        } 
+
+        .menu ul{
+            margin-left: 70px;
+        }
+
+        .menu ul a{
+            text-decoration: none;
+            color: #1D2547;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 700;
+             font-style: normal;
+            font-size: 15px;
+            margin-left: 10px;
+           
+        }
+
+        .menu ul a :hover{
+            color: #C6AFFF;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 700;
+             font-style: normal;
+
+
+        }
+
+        .icon
+        {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #E5E5EA;
+            border-radius: 50%;
+            text-align: center;
+            margin-left: 10px;
+          
+        }
+        .icon i
+        {
+            margin-top: 10px;
+        }
+        .search
+        {
+            width: 40px;
+            height: 40px;
+            
+            border-radius: 50%;
+            text-align: center; 
+            background-color: #F6F8FE;
+           
+        }
+
+        .search i{
+            margin-top: 10px;
+        }
+
+        .cart
+        {
+            width: 55px;
+            height: 40px;
+            border-radius: 50px;
+            margin-left: 15px;
+            background-color: #9F78FF;
+            color: white;
+            
+        }
+
+        .search_bar
+        {
+            display:flex;
+            margin-left: 10px;
+            
+        }
+
+        .nav a
+        {
+            color: black;
+        }
+
+        .nav .icon a:hover
+        {
+            color: #9F78FF;
+        }
+
+        .dropdown ul
+        {
+           
+            border: 1px solid black;
+            margin-top: 0px;
+            margin-left: 5px;
+
+        }
+        .dropdown ul li{
+            -border: 1px solid black;
+            width: 150px;
+        }
+        .dropdown  li:hover
+        {
+            color: #9F78FF;
+        }
+        .btn-mycolor
+        {
+           
+            background-color: #9F78FF;
+        }
+
+        text_bread
+        {
+            color: #9AA1A5;
+        }
+        .bd{
+            background-color: #EFF5F8;
+        }
+
+        .bd ul a
+        {
+           color: #949EA5;
+            
+        }
+        .breadcrumb-item+.breadcrumb-item::before {
+           
+            content: var(--bs-breadcrumb-divider, ">");
+            color: black;
+            font-size: 15px;
+            text-align: center;
+            font-weight: bolder;
+        
+        }
+
+        .shop_title h2
+        {
+            font-size: 70px;
+            font-family: "Cinzel",serif;
+            text-transform: uppercase;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-top: 100px;
+            color: #140C40;
+
+        }
+
+        .shop_title p{
+            margin-top: 10px;
+            font-size: 16px;
+            font-family: "Poppins",sans-serif;
+            font-weight: 400;
+            color: #140C40;
+            line-height: 1.2;
+        }
+        .text-list {
+            color: #616F8B;
+           
+        }
+
+        .list-group a
+        {
+            font-size: 14px;
+            font-family: "Poppins",sans-serif;
+            font-weight: 700;
+            padding-block: 15px;
+            
+           
+
+        }
+
+        .list-group a:hover
+        {
+            background-color: #8C6AE4;
+            color: white;
+        }
+
+
+        .list-group .active
+        {
+            background-color: #8C6AE4 !important;
+        }
+
+        .shirt .card:hover
+        {
+            box-shadow: 4px 3px 3px silver;
+            opacity: 0.99;
+            transition: 1s;
+        }
+
+        .brws_btn button
+        {
+            font-size: 20px;
+            color: #8C6AE4;
+            width: 200px;
+            height: 60px;
+            padding-inline: 15px;
+            transition: 0.5s linear;
+           margin-left: 40%;
+           
+
+        }
+
+        .brws_btn button:hover
+        {
+            background-color: #8C6AE4;
+            color: white;
+        }
+
+
